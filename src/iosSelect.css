@@ -271,3 +271,162 @@ ul, li {
         transform: translate3d(0, 100%, 0);
     }
 }
+@keyframes marquee101-110 {
+    0%{
+      -webkit-transform: translatex(0%);
+      transform: translatex(0%);
+      opacity: 1;
+    }
+    48% {
+      -webkit-transform: translatex(-100%);
+      transform: translatex(-100%);
+      opacity: 1;
+    }
+    49% {
+      -webkit-transform: translatex(-101%);
+      transform: translatex(-101%);
+      opacity: 0;
+    }
+    50%{
+      -webkit-transform: translatex(100%);
+      transform: translatex(100%);
+      opacity: 0;
+    }
+    51%{
+      -webkit-transform: translatex(99%);
+      transform: translatex(99%);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translatex(0%); // 每行高50
+      transform: translatex(0%); // 每行高50
+      opacity: 1;
+    }
+  }
+  @keyframes marquee111-120 {
+    0%{
+      -webkit-transform: translatex(0%);
+      transform: translatex(0%);
+      opacity: 1;
+    }
+    50% {
+      -webkit-transform: translatex(-100%);
+      transform: translatex(-100%);
+      opacity: 1;
+    }
+    51% {
+      -webkit-transform: translatex(-101%);
+      transform: translatex(-101%);
+      opacity: 0;
+    }
+    52%{
+      -webkit-transform: translatex(100%);
+      transform: translatex(100%);
+      opacity: 0;
+    }
+    53%{
+      -webkit-transform: translatex(99%);
+      transform: translatex(89%);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translatex(0%); // 每行高50
+      transform: translatex(0%); // 每行高50
+      opacity: 1;
+    }
+  }
+  @keyframes marquee121-130 {
+    0%{
+      -webkit-transform: translatex(0%);
+      transform: translatex(0%);
+      opacity: 1;
+    }
+    53% {
+      -webkit-transform: translatex(-100%);
+      transform: translatex(-100%);
+      opacity: 1;
+    }
+    54% {
+      -webkit-transform: translatex(-101%);
+      transform: translatex(-101%);
+      opacity: 0;
+    }
+    55%{
+      -webkit-transform: translatex(100%);
+      transform: translatex(100%);
+      opacity: 0;
+    }
+    56%{
+      -webkit-transform: translatex(99%);
+      transform: translatex(79%);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translatex(0%); // 每行高50
+      transform: translatex(0%); // 每行高50
+      opacity: 1;
+    }
+  }
+  @keyframes marquee131-140 {
+    0%{
+      -webkit-transform: translatex(0%);
+      transform: translatex(0%);
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translatex(-100%);
+      transform: translatex(-100%);
+      opacity: 1;
+    }
+    56% {
+      -webkit-transform: translatex(-101%);
+      transform: translatex(-101%);
+      opacity: 0;
+    }
+    57%{
+      -webkit-transform: translatex(100%);
+      transform: translatex(100%);
+      opacity: 0;
+    }
+    58%{
+      -webkit-transform: translatex(99%);
+      transform: translatex(69%);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translatex(0%); // 每行高50
+      transform: translatex(0%); // 每行高50
+      opacity: 1;
+    }
+  }
+  @keyframes marquee141-150 {
+    0%{
+      -webkit-transform: translatex(0%);
+      transform: translatex(0%);
+      opacity: 1;
+    }
+    58% {
+      -webkit-transform: translatex(-100%);
+      transform: translatex(-100%);
+      opacity: 1;
+    }
+    59% {
+      -webkit-transform: translatex(-101%);
+      transform: translatex(-101%);
+      opacity: 0;
+    }
+    60%{
+      -webkit-transform: translatex(100%);
+      transform: translatex(100%);
+      opacity: 0;
+    }
+    61%{
+      -webkit-transform: translatex(99%);
+      transform: translatex(59%);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translatex(0%); // 每行高50
+      transform: translatex(0%); // 每行高50
+      opacity: 1;
+    }
