@@ -684,14 +684,14 @@
       var pdom = this.changeClassName(this.oneLevelContainDom, plast);
       this.selectOneObj = iosSelectUtil.attrToData(pdom, this.getAtIndexByPlast(plast));
       // 判断是需要滚动处理
-      if (pdom.offsetWidth<=pdom.parentElement.clientWidth){
-        pdom.style.animation = 'unset';
-        pdom.style.webkitAnimation = 'unset';
-        pdom.style.animationDelay = 'unset';
-        pdom.style.webkitAnimationDelay = 'unset';
-        // pdom.style.margin='auto';
-      }
-      else {
+//       if (pdom.offsetWidth<=pdom.parentElement.clientWidth){
+//         pdom.style.animation = 'unset';
+//         pdom.style.webkitAnimation = 'unset';
+//         pdom.style.animationDelay = 'unset';
+//         pdom.style.webkitAnimationDelay = 'unset';
+//         // pdom.style.margin='auto';
+//       }
+//       else {
         // 滚屏时间计算
         var basetime = 0;
         var extraTime = pdom.textContent.length/4;
@@ -717,7 +717,7 @@
         pdom.style.webkitAnimation = keyframesName + ' ' + totalTime + 's linear infinite';
         pdom.style.animationDelay = '3s';
         pdom.style.webkitAnimationDelay = '3s';
-      }
+//       }
 
     },
     getTwoLevel: function(oneLevelId) {
@@ -1009,14 +1009,14 @@
         // marqueeDom.setAttribute('scrollamount','3');
         // pdom.appendChild(marqueeDom);
         // 判断是需要滚动处理
-        if (pdom.offsetWidth<=pdom.parentElement.clientWidth){
-            pdom.style.animation = 'unset';
-            pdom.style.webkitAnimation = 'unset';
-          pdom.style.animationDelay = 'unset';
-          pdom.style.webkitAnimationDelay = 'unset';
-          // pdom.style.margin='auto';
-          }
-        else {
+//         if (pdom.offsetWidth<=pdom.parentElement.clientWidth){
+//             pdom.style.animation = 'unset';
+//             pdom.style.webkitAnimation = 'unset';
+//           pdom.style.animationDelay = 'unset';
+//           pdom.style.webkitAnimationDelay = 'unset';
+//           // pdom.style.margin='auto';
+//           }
+//         else {
           // 滚屏时间计算
           var basetime = 0;
           var extraTime = pdom.textContent.length/4;
@@ -1042,7 +1042,7 @@
           pdom.style.webkitAnimation = keyframesName + ' ' + totalTime + 's linear infinite';
           pdom.style.animationDelay = '3s';
           pdom.style.webkitAnimationDelay = '3s';
-        }
+//         }
       }
       return pdom;
     },
